@@ -83,7 +83,7 @@ export default function ImageZoomViewer({
     "group relative isolate grid h-9 w-9 place-items-center overflow-hidden rounded-full border border-black/10 bg-white text-black transition-all duration-300 after:absolute after:left-0 after:top-0 after:z-0 after:h-full after:w-full after:-translate-x-full after:rounded-full after:bg-black after:transition-transform after:duration-500 after:ease-[cubic-bezier(0.22,1,0.36,1)] hover:after:translate-x-0";
 
   return (
-    <div className={`relative overflow-hidden rounded-xl ${className}`}>
+    <div className={`relative overflow-hidden rounded-xl h-fit ${className}`}>
       <div
         ref={viewerRef}
         className="relative h-100 md:h-125 w-full bg-black/2 "
